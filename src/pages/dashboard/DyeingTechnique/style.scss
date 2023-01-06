@@ -1,0 +1,25 @@
+.technique-container {
+    @apply m-8 overflow-y-auto;
+
+    .header{
+        @apply text-red-400 text-4xl text-center font-semibold;
+    }
+
+    .immersion, .tie, .printing, .batik, .shibori {
+        @apply my-8 w-2/4;
+
+        .head{
+            @apply text-2xl text-green-600 font-semibold;
+        }
+
+        .details{
+            @apply my-4;
+        }
+
+        ul {
+            @apply mb-4 ml-9
+        }
+    }
+
+  
+}

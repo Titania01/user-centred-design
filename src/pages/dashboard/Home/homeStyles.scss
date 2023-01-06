@@ -1,0 +1,34 @@
+.dashboard-wrapper {
+  @apply w-full text-sm lg:text-base h-full lg:px-12 px-5 overflow-auto;
+
+  .intro {
+    @apply text-2xl mt-10 mb-8;
+  }
+
+  .recent-project-title-cont {
+    @apply w-full flex items-center justify-between;
+
+    h2 {
+      @apply font-semibold text-greyScale900;
+      font-size: 1.5em;
+      line-height: 2rem;
+    }
+    span {
+      @apply text-cvGreenLight;
+      font-size: 0.875em;
+      line-height: 1.25rem;
+    }
+  }
+  .cards-cont {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-4 gap-y-6 mt-4;
+  }
+  .class-card {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-6 mt-4;
+  }
+  .task-title {
+    @apply text-lg text-neutral100 font-semibold;
+  }
+  .task-number {
+    @apply bg-cvCharcoal text-white px-2 ml-3;
+  }
+}
